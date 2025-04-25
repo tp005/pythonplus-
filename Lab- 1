@@ -1,0 +1,161 @@
+# Add two numbers 
+a = 10
+b = 5
+print("Sum:", a + b)
+
+# Subtract two numbers
+
+a = 10
+b = 5
+print("Difference:", a - b)
+
+# Multiply two numbers
+
+a = 10
+b = 5
+print("Product:", a * b)
+
+# Divide two numbers
+
+a = 10
+b = 5
+print("Quotient:", a / b)
+
+# Add, multiply, subtract, and divide two numbers
+
+a = 10
+b = 5
+print("Sum:", a + b)
+print("Difference:", a - b)
+print("Product:", a * b)
+print("Quotient:", a / b)
+
+# Convert hours into minutes
+
+hours = 2
+minutes = hours * 60
+print("Minutes:", minutes)
+
+# Convert minutes into hours
+
+minutes = 120
+hours = minutes / 60
+print("Hours:", hours)
+
+# Convert dollars into Rs (1 $ = 48 Rs)
+
+dollars = 10
+rs = dollars * 48
+print("Rupees:", rs)
+
+# Convert Rs into dollars
+
+rs = 480
+dollars = rs / 48
+print("Dollars:", dollars)
+
+# Convert dollars into pounds (1 $ = 48 Rs, 1 pound = 70 Rs)
+
+dollars = 10
+rs = dollars * 48
+pounds = rs / 70
+print("Pounds:", pounds)
+
+# Convert grams into kg
+
+grams = 1000
+kg = grams / 1000
+print("Kilograms:", kg)
+
+# Convert kgs into grams
+
+kg = 1
+grams = kg * 1000
+print("Grams:", grams)
+
+# Convert bytes into KB, MB, GB
+
+bytes_val = 1048576
+kb = bytes_val / 1024
+mb = kb / 1024
+gb = mb / 1024
+print("KB:", kb, "MB:", mb, "GB:", gb)
+
+# Celsius to Fahrenheit
+
+c = 25
+f = (9/5 * c) + 32
+print("Fahrenheit:", f)
+
+# Fahrenheit to Celsius
+
+f = 77
+c = (5/9) * (f - 32)
+print("Celsius:", c)
+
+# Calculate interest
+
+p = 1000
+r = 5
+n = 2
+interest = (p * r * n) / 100
+print("Interest:", interest)
+
+# Area & Perimeter of square
+
+l = 4
+area = l ** 2
+perimeter = 4 * l
+print("Area:", area, "Perimeter:", perimeter)
+
+# Area & Perimeter of rectangle
+
+l = 5
+b = 3
+area = l * b
+perimeter = 2 * (l + b)
+print("Area:", area, "Perimeter:", perimeter)
+
+# Area of circle
+
+r = 7
+area = (22/7) * r * r
+print("Area:", area)
+
+# Area of triangle
+
+h = 10
+l = 5
+area = (h * l) / 2
+print("Area:", area)
+
+# Calculate net salary
+
+gross_salary = 50000
+allowance = 0.10 * gross_salary
+deduction = 0.03 * gross_salary
+net_salary = gross_salary + allowance - deduction
+print("Net Salary:", net_salary)
+
+# Calculate net sales
+
+gross_sales = 100000
+discount = 0.10 * gross_sales
+net_sales = gross_sales - discount
+print("Net Sales:", net_sales)
+
+# Average of 3 subjects and total
+
+s1 = 85
+s2 = 90
+s3 = 95
+total = s1 + s2 + s3
+average = total / 3
+print("Total:", total, "Average:", average)
+
+# Swap two values
+
+a = 5
+b = 10
+a, b = b, a
+print("a:", a, "b:", b)
